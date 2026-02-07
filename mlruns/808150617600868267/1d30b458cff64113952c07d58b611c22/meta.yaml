@@ -1,0 +1,15 @@
+artifact_uri: file:///app/mlruns/808150617600868267/1d30b458cff64113952c07d58b611c22/artifacts
+end_time: 1768817432212
+entry_point_name: ''
+experiment_id: '808150617600868267'
+lifecycle_stage: active
+run_id: 1d30b458cff64113952c07d58b611c22
+run_name: monumental-gnat-550
+run_uuid: 1d30b458cff64113952c07d58b611c22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768817424896
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/mlruns/808150617600868267/14b85b7d6c454b35beff71ebb827c441/artifacts
+end_time: 1768818415387
+entry_point_name: ''
+experiment_id: '808150617600868267'
+lifecycle_stage: active
+run_id: 14b85b7d6c454b35beff71ebb827c441
+run_name: awesome-fox-895
+run_uuid: 14b85b7d6c454b35beff71ebb827c441
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768818409368
+status: 3
+tags: []
+user_id: root

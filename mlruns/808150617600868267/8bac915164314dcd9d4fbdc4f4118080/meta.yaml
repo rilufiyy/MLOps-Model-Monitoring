@@ -1,0 +1,15 @@
+artifact_uri: file:///app/mlruns/808150617600868267/8bac915164314dcd9d4fbdc4f4118080/artifacts
+end_time: 1768883731839
+entry_point_name: ''
+experiment_id: '808150617600868267'
+lifecycle_stage: active
+run_id: 8bac915164314dcd9d4fbdc4f4118080
+run_name: mysterious-hare-974
+run_uuid: 8bac915164314dcd9d4fbdc4f4118080
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768883728646
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/mlruns/808150617600868267/685be08001a246d1a898c37c11d4ee20/artifacts
+end_time: 1768882980876
+entry_point_name: ''
+experiment_id: '808150617600868267'
+lifecycle_stage: active
+run_id: 685be08001a246d1a898c37c11d4ee20
+run_name: dashing-bat-519
+run_uuid: 685be08001a246d1a898c37c11d4ee20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768882973924
+status: 3
+tags: []
+user_id: asus
