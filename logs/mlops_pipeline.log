@@ -1,0 +1,170 @@
+2026-01-13 19:55:17,444 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-13 19:55:17,445 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-13 19:55:17,445 - src.utils.mlflow_utils - ERROR - Error setting up MLflow:  Model registry functionality is unavailable; got unsupported URI 'D:\Dibimbing\Assignment\house_price_prediction\mlruns' for model registry data storage. Supported URI schemes are: ['', 'file', 'databricks', 'databricks-uc', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql']. See https://www.mlflow.org/docs/latest/tracking.html#storage for how to run an MLflow server against one of the supported backend storage locations.
+2026-01-13 19:55:17,445 - src.models.train_model - ERROR - Error in training pipeline:  Model registry functionality is unavailable; got unsupported URI 'D:\Dibimbing\Assignment\house_price_prediction\mlruns' for model registry data storage. Supported URI schemes are: ['', 'file', 'databricks', 'databricks-uc', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql']. See https://www.mlflow.org/docs/latest/tracking.html#storage for how to run an MLflow server against one of the supported backend storage locations.
+2026-01-13 19:55:17,445 - pipeline - ERROR - Pipeline failed:  Model registry functionality is unavailable; got unsupported URI 'D:\Dibimbing\Assignment\house_price_prediction\mlruns' for model registry data storage. Supported URI schemes are: ['', 'file', 'databricks', 'databricks-uc', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql']. See https://www.mlflow.org/docs/latest/tracking.html#storage for how to run an MLflow server against one of the supported backend storage locations.
+2026-01-13 20:00:26,665 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-13 20:00:26,665 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-13 20:00:26,673 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-13 20:00:26,673 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-13 20:00:26,673 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-13 20:00:26,673 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-13 20:00:26,674 - src.data.preprocessing - ERROR - Error loading data: [Errno 2] No such file or directory: 'D:\\Dibimbing\\Assignment\\house_price_prediction\\data\\raw\\train.csv'
+2026-01-13 20:00:26,674 - src.models.train_model - ERROR - Error in training pipeline: [Errno 2] No such file or directory: 'D:\\Dibimbing\\Assignment\\house_price_prediction\\data\\raw\\train.csv'
+2026-01-13 20:00:26,674 - pipeline - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'D:\\Dibimbing\\Assignment\\house_price_prediction\\data\\raw\\train.csv'
+2026-01-13 20:01:22,323 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-13 20:01:22,323 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-13 20:01:22,327 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-13 20:01:22,327 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-13 20:01:22,327 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-13 20:01:22,328 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-13 20:01:22,337 - src.data.preprocessing - INFO - Starting data preprocessing...
+2026-01-13 20:01:22,364 - src.data.preprocessing - INFO - Data shape after preprocessing: (1460, 303)
+2026-01-13 20:01:22,369 - src.models.train_model - INFO - Preprocessor saved to D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-13 20:01:22,369 - src.models.train_model - INFO - Training model...
+2026-01-13 20:01:22,644 - src.models.train_model - INFO - Evaluating model...
+2026-01-13 20:01:22,648 - src.models.train_model - INFO - Logging to MLflow...
+2026-01-13 20:01:22,701 - src.utils.mlflow_utils - INFO - Logged parameters: {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}
+2026-01-13 20:01:22,704 - src.utils.mlflow_utils - INFO - Logged metrics: {'rmse': 28490.666016508545, 'mae': 15821.402129708904, 'r2': 0.8941742465524279}
+2026-01-13 20:01:24,436 - src.utils.mlflow_utils - INFO - Logged model to artifact path: model
+2026-01-13 20:01:24,441 - src.models.train_model - INFO - Model saved localy to D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-13 20:01:24,441 - src.models.train_model - INFO - Training pipeline completed successfully.
+2026-01-13 20:01:24,442 - pipeline - INFO - Pipeline finished successfully!
+2026-01-13 20:02:39,218 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-13 20:02:39,219 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-13 20:02:39,219 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-13 20:02:39,219 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-13 20:02:39,219 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-13 20:02:39,219 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-13 20:02:39,233 - src.data.preprocessing - INFO - Starting data preprocessing...
+2026-01-13 20:02:39,255 - src.data.preprocessing - INFO - Data shape after preprocessing: (1460, 303)
+2026-01-13 20:02:39,260 - src.models.train_model - INFO - Preprocessor saved to D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-13 20:02:39,261 - src.models.train_model - INFO - Training model...
+2026-01-13 20:02:39,525 - src.models.train_model - INFO - Evaluating model...
+2026-01-13 20:02:39,528 - src.models.train_model - INFO - Logging to MLflow...
+2026-01-13 20:02:39,588 - src.utils.mlflow_utils - INFO - Logged parameters: {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}
+2026-01-13 20:02:39,596 - src.utils.mlflow_utils - INFO - Logged metrics: {'rmse': 28490.666016508545, 'mae': 15821.402129708904, 'r2': 0.8941742465524279}
+2026-01-13 20:02:41,199 - src.utils.mlflow_utils - INFO - Logged model to artifact path: model
+2026-01-13 20:02:41,206 - src.models.train_model - INFO - Model saved localy to D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-13 20:02:41,206 - src.models.train_model - INFO - Training pipeline completed successfully.
+2026-01-13 20:02:41,206 - pipeline - INFO - Pipeline finished successfully!
+2026-01-13 20:06:25,634 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-13 20:06:26,074 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-13 20:06:26,157 - api - INFO - Artifacts loaded successfully.
+2026-01-13 20:15:31,210 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-13 20:15:31,627 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-13 20:15:31,738 - api - INFO - Artifacts loaded successfully.
+2026-01-14 05:06:37,443 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-14 05:06:37,449 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-14 05:06:37,461 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-14 05:06:37,461 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-14 05:06:37,463 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-14 05:06:37,463 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-14 05:06:37,487 - src.data.preprocessing - INFO - Starting data preprocessing...
+2026-01-14 05:06:37,551 - src.data.preprocessing - INFO - Data shape after preprocessing: (1460, 303)
+2026-01-14 05:06:37,560 - src.models.train_model - INFO - Preprocessor saved to D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-14 05:06:37,560 - src.models.train_model - INFO - Training model...
+2026-01-14 05:06:38,098 - src.models.train_model - INFO - Evaluating model...
+2026-01-14 05:06:38,101 - src.models.train_model - INFO - Logging to MLflow...
+2026-01-14 05:06:38,205 - src.utils.mlflow_utils - INFO - Logged parameters: {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}
+2026-01-14 05:06:38,211 - src.utils.mlflow_utils - INFO - Logged metrics: {'rmse': 28490.666016508545, 'mae': 15821.402129708904, 'r2': 0.8941742465524279}
+2026-01-14 05:06:41,791 - src.utils.mlflow_utils - INFO - Logged model to artifact path: model
+2026-01-14 05:06:41,796 - src.models.train_model - INFO - Model saved localy to D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-14 05:06:41,796 - src.models.train_model - INFO - Training pipeline completed successfully.
+2026-01-14 05:06:41,797 - pipeline - INFO - Pipeline finished successfully!
+2026-01-14 05:07:18,280 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-14 05:07:18,932 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-14 05:07:19,024 - api - INFO - Artifacts loaded successfully.
+2026-01-14 16:52:11,940 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-14 16:52:11,940 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-14 16:52:11,948 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-14 16:52:11,948 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-14 16:52:11,948 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-14 16:52:11,948 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-14 16:52:11,958 - src.data.preprocessing - INFO - Starting data preprocessing...
+2026-01-14 16:52:11,971 - src.data.preprocessing - INFO - Data shape after preprocessing: (1460, 303)
+2026-01-14 16:52:11,983 - src.models.train_model - INFO - Preprocessor saved to D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-14 16:52:11,983 - src.models.train_model - INFO - Training model...
+2026-01-14 16:52:12,277 - src.models.train_model - INFO - Evaluating model...
+2026-01-14 16:52:12,279 - src.models.train_model - INFO - Logging to MLflow...
+2026-01-14 16:52:12,369 - src.utils.mlflow_utils - INFO - Logged parameters: {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}
+2026-01-14 16:52:12,372 - src.utils.mlflow_utils - INFO - Logged metrics: {'rmse': 28490.666016508545, 'mae': 15821.402129708904, 'r2': 0.8941742465524279}
+2026-01-14 16:52:14,245 - src.utils.mlflow_utils - INFO - Logged model to artifact path: model
+2026-01-14 16:52:14,256 - src.models.train_model - INFO - Model saved localy to D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-14 16:52:14,256 - src.models.train_model - INFO - Training pipeline completed successfully.
+2026-01-14 16:52:14,258 - pipeline - INFO - Pipeline finished successfully!
+2026-01-14 16:54:54,215 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-14 16:54:54,215 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-14 16:54:54,221 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-14 16:54:54,222 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-14 16:54:54,222 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-14 16:54:54,222 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-14 16:54:54,232 - src.data.preprocessing - INFO - Starting data preprocessing...
+2026-01-14 16:54:54,271 - src.data.preprocessing - INFO - Data shape after preprocessing: (1460, 303)
+2026-01-14 16:54:54,277 - src.models.train_model - INFO - Preprocessor saved to D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-14 16:54:54,277 - src.models.train_model - INFO - Training model...
+2026-01-14 16:54:54,544 - src.models.train_model - INFO - Evaluating model...
+2026-01-14 16:54:54,545 - src.models.train_model - INFO - Logging to MLflow...
+2026-01-14 16:54:54,600 - src.utils.mlflow_utils - INFO - Logged parameters: {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}
+2026-01-14 16:54:54,611 - src.utils.mlflow_utils - INFO - Logged metrics: {'rmse': 28490.666016508545, 'mae': 15821.402129708904, 'r2': 0.8941742465524279}
+2026-01-14 16:54:56,191 - src.utils.mlflow_utils - INFO - Logged model to artifact path: model
+2026-01-14 16:54:56,195 - src.models.train_model - INFO - Model saved localy to D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-14 16:54:56,195 - src.models.train_model - INFO - Training pipeline completed successfully.
+2026-01-14 16:54:56,196 - pipeline - INFO - Pipeline finished successfully!
+2026-01-14 16:55:06,671 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-14 16:55:07,103 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-14 16:55:07,175 - api - INFO - Artifacts loaded successfully.
+2026-01-20 11:22:33,933 - monitoring - INFO - Starting system monitoring...
+2026-01-20 11:22:33,934 - monitoring - INFO - Loading reference data (simulated)...
+2026-01-20 11:22:33,934 - monitoring - INFO - Collecting new data (simulate_drift=False)...
+2026-01-20 11:22:33,934 - monitoring - INFO - drift check: p-value=0.53414, threshold=0.05
+2026-01-20 11:22:33,934 - monitoring - INFO - No drift detected. System is healthy.
+2026-01-20 11:22:53,379 - monitoring - INFO - Starting system monitoring...
+2026-01-20 11:22:53,379 - monitoring - INFO - Loading reference data (simulated)...
+2026-01-20 11:22:53,380 - monitoring - INFO - Collecting new data (simulate_drift=True)...
+2026-01-20 11:22:53,382 - monitoring - INFO - drift check: p-value=0.00000, threshold=0.05
+2026-01-20 11:22:53,383 - monitoring - WARNING - DATA DRIFT DETECTED! (p-value: 0.00000). Triggering retraining...
+2026-01-20 11:22:53,383 - pipeline - INFO - Starting House Price Prediction Pipeline...
+2026-01-20 11:22:53,383 - pipeline - INFO - This will preprocess data, train the model, and log to MLflow.
+2026-01-20 11:22:53,387 - src.utils.mlflow_utils - INFO - MLflow tracking URI set to: file:///D:/Dibimbing/Assignment/house_price_prediction/mlruns
+2026-01-20 11:22:53,387 - src.utils.mlflow_utils - INFO - MLflow experiment set to: house_price_prediction
+2026-01-20 11:22:53,388 - src.models.train_model - INFO - Loading and preprocessing data...
+2026-01-20 11:22:53,388 - src.data.preprocessing - INFO - Loading data from D:\Dibimbing\Assignment\house_price_prediction\data\raw\train.csv
+2026-01-20 11:22:53,399 - src.data.preprocessing - INFO - Starting data preprocessing...
+2026-01-20 11:22:53,415 - src.data.preprocessing - INFO - Data shape after preprocessing: (1460, 303)
+2026-01-20 11:22:53,422 - src.models.train_model - INFO - Preprocessor saved to D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-20 11:22:53,422 - src.models.train_model - INFO - Training model...
+2026-01-20 11:22:53,597 - src.models.train_model - INFO - Evaluating model...
+2026-01-20 11:22:53,600 - src.models.train_model - INFO - Logging to MLflow...
+2026-01-20 11:22:53,938 - src.utils.mlflow_utils - INFO - Logged parameters: {'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5, 'random_state': 42, 'n_jobs': -1}
+2026-01-20 11:22:53,940 - src.utils.mlflow_utils - INFO - Logged metrics: {'rmse': 28490.666016508545, 'mae': 15821.402129708904, 'r2': 0.8941742465524279}
+2026-01-20 11:22:55,991 - src.utils.mlflow_utils - INFO - Logged model to artifact path: model
+2026-01-20 11:22:55,991 - src.utils.mlflow_utils - INFO - Generating and logging plots...
+2026-01-20 11:23:00,868 - src.utils.mlflow_utils - INFO - Plots logged successfully.
+2026-01-20 11:23:00,875 - src.models.train_model - INFO - Model saved localy to D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-20 11:23:00,875 - src.models.train_model - INFO - Training pipeline completed successfully.
+2026-01-20 11:23:00,876 - pipeline - INFO - Pipeline finished successfully!
+2026-01-20 14:41:18,516 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-20 14:41:18,549 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-20 14:41:18,562 - api - INFO - Artifacts loaded successfully.
+2026-01-20 14:42:14,552 - api - ERROR - Prediction error: 
+2026-01-20 14:42:14,559 - api - ERROR - Monitoring failed: name 'config' is not defined
+2026-01-20 15:00:39,699 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-20 15:00:39,727 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-20 15:00:39,731 - api - INFO - Artifacts loaded successfully.
+2026-01-20 15:00:41,547 - api - ERROR - Prediction error: 
+2026-01-20 15:00:41,556 - api - ERROR - Monitoring failed: name 'config' is not defined
+2026-01-20 15:01:12,100 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-20 15:01:12,124 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-20 15:01:12,127 - api - INFO - Artifacts loaded successfully.
+2026-01-20 15:01:17,995 - api - ERROR - Monitoring failed: name 'config' is not defined
+2026-01-20 15:34:31,006 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-20 15:34:31,027 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-20 15:34:31,032 - api - INFO - Artifacts loaded successfully.
+2026-01-20 15:34:32,690 - api - ERROR - Monitoring failed: name 'config' is not defined
+2026-01-20 15:35:00,319 - api - INFO - Loading model from D:\Dibimbing\Assignment\house_price_prediction\models\house_price_model.pkl
+2026-01-20 15:35:00,343 - api - INFO - Loading preprocessor from D:\Dibimbing\Assignment\house_price_prediction\models\preprocessor.joblib
+2026-01-20 15:35:00,347 - api - INFO - Artifacts loaded successfully.
+2026-01-20 15:35:04,764 - monitoring - INFO - New data point saved to D:\Dibimbing\Assignment\house_price_prediction\data\monitoring_data.csv
+2026-01-20 15:35:04,771 - monitoring - INFO - Not enough data to check for drift yet (1 samples).
+2026-01-20 15:35:04,772 - api - INFO - Monitoring check completed.
