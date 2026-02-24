@@ -122,4 +122,5 @@ uvicorn src.app.main:app --reload
 
 ## Author
 Sri Lutfiya Dwiyeni
+
 MLOps & Machine Learning Enthusiast
