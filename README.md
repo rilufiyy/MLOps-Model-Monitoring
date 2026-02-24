@@ -9,44 +9,7 @@ This project implements an end-to-end MLOps pipeline for house price prediction 
 - Containerize application using Docker & Docker Compose
 
 ## Project Structure
-HOUSE_PRICE_PREDICTION/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── monitoring_data.csv
-│
-├── logs/
-│   └── mlops_pipeline.log
-│
-├── mlruns/                    # MLflow experiment tracking
-├── mlruns_backup_windows/
-│
-├── models/
-│   ├── house_price_model.pkl
-│   ├── preprocessor.joblib
-│   └── house_price_gwo_log_...
-│
-├── monitoring/
-│   ├── __init__.py
-│   └── monitor.py
-│
-├── notebooks/
-│   └── Sri_Lutfiya_Dwiyeni_...
-│
-├── src/
-│   ├── app/                   # FastAPI app
-│   ├── data/                  # Data processing logic
-│   ├── models/                # Training & evaluation
-│   └── utils/
-│       ├── config.py
-│       ├── logger.py
-│       └── mlflow_utils.py
-│
-├── temp_plots/
-├── docker-compose.yml
-├── Dockerfile
-└── README.md
+<img width="542" height="772" alt="image" src="https://github.com/user-attachments/assets/0b8bad13-ef72-4990-926e-12f864cb4819" />
 
 ## MLOps Pipeline Overview
 ### 1. Modular Code Architecture
