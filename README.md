@@ -87,8 +87,8 @@ FastAPI digunakan untuk production model serving.
 
 ## How to Run Locally
 ### 1️. Clone Repository
-git clone https://github.com/your-username/house-price-mlops.git
-cd house-price-mlops
+git clone https://github.com/your-username/MLOps-Model-Monitoring.git
+cd MLOps-Model-Monitoring
 
 ### 2. Create Virtual Environment
 python -m venv venv
@@ -99,7 +99,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 ### 4. Train Model
-python -m src.models.train
+python -m src.models.train_model
 
 ### 5.Run API
 uvicorn src.app.main:app --reload
