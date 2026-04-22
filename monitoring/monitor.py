@@ -46,7 +46,7 @@ def load_reference_data():
     """Load reference data (training data) for drift detection."""
     # In a real scenario, this should load the actual training data used for the model
     # For now, we simulate it or load a sample if available
-    train_path = config.data_dir / config.train_file
+    train_path = config.raw_data_dir / config.train_file
     if train_path.exists():
          df = pd.read_csv(train_path)
          # Assuming 'SalePrice' is the target, we might monitor features or the target itself.
